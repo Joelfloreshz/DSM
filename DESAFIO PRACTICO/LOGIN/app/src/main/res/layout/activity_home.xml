@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+<TextView
+    android:gravity="center"
+    android:layout_margin="20sp"
+    android:textStyle="bold"
+    android:textColor="#388E3C"
+    android:textSize="25sp"
+    android:text="Bienvenido"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/text_fullname"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Nombre Completo"
+        android:layout_margin="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:layout_margin="20sp"
+        android:id="@+id/text_email"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:textColor="#fff"
+        android:background="#D32F2F"
+        android:layout_margin="20sp"
+        android:layout_gravity="center"
+        android:text="Salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:id="@+id/PD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calculadora" />
+
+    <Button
+        android:id="@+id/DP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CUADRATICA" />
+
+</LinearLayout>
