@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application Practica06 - DSM104</string>
+    <string name="contrasena">¿Olvido su contraseña?</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+</resources>
