@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Shopping App</string>
+
+    <!-- Onboarding Screen-->
+    <string name="skip">Saltar</string>
+    <string name="previous">Regresar</string>
+    <string name="next">Siguiente</string>
+    <string name="finish">Finalizar</string>
+    <string name="onboarding_1_title">Compre fácilmente</string>
+    <string name="onboarding_1_desc">Podrás encontrar todos los productos que buscas y comprarlos fácilmente.</string>
+    <string name="onboarding_2_title">Envío rápido</string>
+    <string name="onboarding_2_desc">Los productos se le entregan rápidamente.</string>
+    <string name="onboarding_3_title">Simplemente paga</string>
+    <string name="onboarding_3_desc">Paga con tarjeta de crédito o en cuotas.</string>
+    <string name="onboarding_4_title">Comencemos a comprar</string>
+    <string name="onboarding_4_desc">Encuentra el producto, realiza el pago y recíbelo por mensajería.</string>
+
+    <!-- Auth Screen-->
+    <string name="welcome_to_shopping_app">Bienvenido a Shopping App</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password Again</string>
+    <string name="username">Username</string>
+    <string name="close">Close</string>
+    <string name="fields_cannot_empty">¡Los campos no pueden estar vacíos!</string>
+    <string name="enter_valid_email">¡Por favor, introduce una dirección de correo electrónico válida!</string>
+    <string name="passwords_dont_match">¡Las contraseñas no coinciden!</string>
+    <string name="password_greater_than_5">¡La contraseña debe tener más de 5 caracteres!</string>
+
+    <!-- Main Menu Screen-->
+    <string name="products">Productos</string>
+    <string name="search">Puscar</string>
+    <string name="profile">Perfil</string>
+    <string name="no_data">No dato</string>
+    <string name="currency_unit">%.2f$</string>
+
+    <!-- Product Details -->
+    <string name="rating_count">%s Rating</string>
+    <string name="add_basket">Agregar a Canastas (%d)</string>
+    <string name="increase_char">+</string>
+    <string name="reduce_char">-</string>
+    <string name="product_added_basket_message">Producto agregado.</string>
+
+    <!-- Profile -->
+    <string name="sign_out">SIGN OUT</string>
+    <string name="sign_out_message">Seguro que quieres salir de la cuenta?</string>
+    <string name="continue_">CONTINUE</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Search -->
+    <string name="search_hint">Buscar Producto…</string>
+
+    <!-- Basket -->
+    <string name="my_basket">MI CANASTA</string>
+    <string name="purchase">PAGAR (%.2f$)</string>
+    <string name="product_reduce_message">Producto reducido</string>
+    <string name="product_increased_message">Producto aumentado</string>
+    <string name="product_deleted_message">Producto eliminado</string>
+    <string name="purchase_message">¿Está seguro de que se recibirá el pago y se completarán sus compras?</string>
+    <string name="purchase_success_message">Productos comprados con éxito.</string>
+    <string name="basket_empty_message">tu canasta esta vacía</string>
+    <string name="basket_empty_message_2">Su cesta está vacía, por favor agregue productos.</string>
+
+</resources>
