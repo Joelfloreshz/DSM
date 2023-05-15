@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_dialogo_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar automóvil"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_modelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Modelo"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_numero_vin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número VIN"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_numero_chasis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de chasis"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_numero_motor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de motor"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_numero_asientos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de asientos"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_anio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Año"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_capacidad_asientos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Capacidad de asientos"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_uri_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URI de imagen"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_marca_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID de marca"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_tipo_automovil_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID de tipo de automóvil"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/et_dialogo_color_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID de color"
+            android:inputType="number"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/btn_dialogo_agregar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agregar" />
+
+            <Button
+                android:id="@+id/btn_dialogo_cancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancelar"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

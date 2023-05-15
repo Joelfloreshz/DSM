@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CarsMotors</string>
+    <string name="register">registro</string>
+    <string name="login">iniciar</string>
+    <string name="password_hint">contracena</string>
+    <string name="username_hint">usuario</string>
+    <string name="logo_description">logo</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">cancel</string>
+    <string name="user_client">cliente</string>
+    <string name="user_admin">admin</string>
+    <string name="tipo_usuario">tipo usuario</string>
+    <string name="confirm_password_hint">password</string>
+    <string name="email_hint">email</string>
+    <string name="apellidos_hint">apellidos</string>
+    <string name="nombres_hint">nombres</string>
+    <string name="nombre_marca">nombre marca</string>
+    <string name="guardar">guardar</string>
+    <string name="editar">editar</string>
+    <string name="eliminar">eliminar</string>
+    <string name="agregar_marca">agregar marca</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="marca_prompt">Marca</string>
+    <string name="tipo_automovil_prompt">tipo automovil</string>
+    <string name="color_prompt">Color</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agregar">agregar</string>
+    <string name="seleccionar_automovil">seleccionar</string>
+    <string name="descripcion">descripcion</string>
+    <string name="precio">precio</string>
+    <string name="capacidad_asientos">capacidad asientos</string>
+    <string name="anio">anio</string>
+    <string name="modelo">modelo</string>
+    <string name="numero_vin">numoro vin</string>
+    <string name="numero_chasis">numero chasis</string>
+    <string name="numero_motor">numero motor</string>
+    <string name="numero_asientos">numero asientos</string>
+    <string name="editar_automovil">editar automovil</string>
+</resources>
